@@ -1,4 +1,4 @@
-const dataTypes= {
+const dataTypes = {
     String: 'Hello, World!',
     Number: 42,
     Boolean: true,
