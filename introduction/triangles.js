@@ -11,6 +11,4 @@ const triangleArea = (a, b, c) => {
 const a = 7, b = 8, c = 9;
 const result = triangleArea(a, b, c);
 
-if (result !== undefined) {
-    console.log(`The area of the triangle is: ${result}`);
-}
+console.log(`The area of the triangle is: ${result}`);
