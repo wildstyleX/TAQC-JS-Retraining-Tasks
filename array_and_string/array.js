@@ -1,5 +1,5 @@
 const custom_array = Array.from({length: 20}, () => Math.floor(Math.random() * 100) + 1);
-console.log(custom_array)
+console.log(custom_array);
 
 custom_array.forEach((element, index) => {
     console.log(`[${index + 1}] – ${element}`)
@@ -23,5 +23,5 @@ console.log(`Array ${duplicates ? 'have' : 'does not have'} duplicates.`);
 const halfArray = custom_array.slice(custom_array.length / 2);
 console.log(halfArray);
 
-const evenNumbers = custom_array.filter(elem => elem % 2 === 0).length
+const evenNumbers = custom_array.filter(elem => elem % 2 === 0).length;
 console.log(`Array contains even ${evenNumbers} numbers`);

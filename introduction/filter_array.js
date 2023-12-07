@@ -15,7 +15,7 @@ const filterMostOftenNumber = numsArr => {
     }
 
     let newArrayWithMostOftenNumber = Array(maxOccurrences).fill(mostOftenNumber);
-    console.log(`Array filled with most occurred number: ${newArrayWithMostOftenNumber}`)
+    console.log(`Array filled with most occurred number: ${newArrayWithMostOftenNumber}`);
 
     return numsArr.filter(number => number !== mostOftenNumber);
 };

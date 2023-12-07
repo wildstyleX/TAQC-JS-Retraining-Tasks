@@ -5,7 +5,7 @@ function createArray(start, end) {
     }
     console.log(result);
 }
-createArray(3, 15)
+createArray(3, 15);
 
 function getNumbers(a, b) {
     const result = [];
